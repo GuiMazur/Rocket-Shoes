@@ -1,0 +1,170 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+#nav{
+    width: 100%;
+    min-width: 943px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+button{
+    border: none;
+}
+
+#nav button{
+    padding: 20px 7px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#nav button:hover{
+    font-weight: 700;
+    padding: 20px 6.5px;
+}
+
+#searchbox{
+    position: relative;
+}
+
+#icon-search{
+    position:absolute;
+    top:3px;
+}
+
+#searchbar{
+    height: 32px;
+    border: 0;
+    padding-left: 28px;
+}
+
+#nav #cartbutton{
+    padding: 13px 7px;
+}
+
+#main{
+    background-color: #E5E5E5;
+    width: 35%;
+    min-width: 330px;
+    height: 98vh;
+    padding: 20px 5% 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+#title{
+    font-size: 65px
+}
+
+#price{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#buy{
+    height: 85px;
+    width: 100%;
+    font-size: 26px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #E5E5E5;
+}
+
+#buy:hover{
+    background-color: #ff3535;
+}
+
+#figure{
+    background-color: #C4C4C4;
+    width: 65%;
+    min-width: 613px;
+    padding: 90px 0 130px;
+    height: 98vh;
+}
+
+#figure img{
+    margin: auto;
+    display: block;
+}
+
+#img0{
+    height: 70%;
+}
+
+#imgbar{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgbar img{
+    height:auto;
+    max-height: 100%;
+    width: 25%;
+    object-fit: cover;
+}
+
+#img2{
+    border-bottom: #ff0000 solid 3px;
+}
+
+#footer{
+    background-color: #E5E5E5;
+    width: 100%;
+    min-width: 943px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+.links{
+    padding: 50px 8px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#footer button:hover{
+    font-weight: 700;
+}
+
+#explore-a {
+    width: 20%;
+}
+
+#explore{
+    padding: 20px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 120px;
+}
+
+
+#icon-arrow{
+    vertical-align:text-bottom
+}
